@@ -74,14 +74,12 @@ public class Joueur {
 
 	        if (valeur > 0) {
 	            System.out.println("Vous avez mangé un fruit : vous regagnez de l'énergie.");
+				nouvelle.setElement(null);
 	        } else {
 	            System.out.println("Vous vous brûlez, cela vous fait perdre de l'énergie.");
 	        }
 	        
-	        this.energie = this.energie + valeur - 1;
-	        
-	        nouvelle.setElement(null);
-	
+	        this.energie = this.energie + valeur - 1;	
 	
 	} else {
 		this.energie -= 1;
