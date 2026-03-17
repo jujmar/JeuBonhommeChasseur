@@ -55,7 +55,6 @@ public class Joueur {
 	public boolean seDeplacer(Cellule nouvelle) {
 		Cellule actuelle = this.position;
 		
-		// A modifier car depend du type de joueur 
 	    int dx = Math.abs(nouvelle.x - actuelle.x);
 	    int dy = Math.abs(nouvelle.y - actuelle.y);
 
